@@ -7,6 +7,18 @@ namespace Classes_Abstratas_e_Interfaces_com_CSharp.Models
 {
     public class Pessoa
     {
+        // makes it possible to instance the class without passing the name parameter.
+        public Pessoa()
+        {
+
+        }
+
+        // default constructor, makes it a required parameter for instancing the class.
+        public Pessoa(string nome)
+        {
+            Nome = nome;
+        }
+
         public string Nome { get; set; }
         public int Idade { get; set; }
         public string Email { get; set; }
