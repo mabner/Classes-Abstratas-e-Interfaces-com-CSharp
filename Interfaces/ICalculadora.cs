@@ -10,6 +10,11 @@ namespace Classes_Abstratas_e_Interfaces_com_CSharp.Interfaces
         int Somar(int num1, int num2);
         int Subtrair(int num1, int num2);
         int Multiplicar(int num1, int num2);
-        int Dividir(int num1, int num2);
+
+        // default interface methods
+        int Dividir(int num1, int num2)
+        {
+            return 1 / 2;
+        }
     }
 }
