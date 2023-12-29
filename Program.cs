@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Classes_Abstratas_e_Interfaces_com_CSharp.Models;
+
+Corrente c = new Corrente();
+c.Creditar(300);
+c.ExibirSaldo();
+
+
